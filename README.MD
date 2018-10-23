@@ -40,6 +40,14 @@ npm run build
 
 - 打包输出在`dist`目录
 
+- 使用`import Vue from 'vue'`时, 需要在 `package.josn` 中加入下面的配置
+```json
+  
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  },
+```
+
 
 ## TODO: 
 
